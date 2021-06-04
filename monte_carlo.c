@@ -12,8 +12,8 @@ int main(void) {
   float pi0;
   float pi1;
   
-  pi0 = 'mc_pi'(25000);
-  pi1 = 'mc_pi'(25000);
+  pi0 = mc_pi(25000);
+  pi1 = mc_pi(25000);
   printf("%f %f\n", pi0, pi1);
   
   if (pi0 == pi1) {
@@ -36,7 +36,7 @@ int main(void) {
   }
 }
 
-float 'mc_pi'(int n ){
+float mc_pi(int n ){
    int incircle = 0;
    
   for ( int i=0; i<n ;i++ ){
