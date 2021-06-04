@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-float mc_pi(int n ){
+float mc_pi(int){
    int incircle = 0;
    
   for ( int i=0; i<n ;i++ ){
